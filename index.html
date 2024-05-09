@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Trusted Travel Agent's</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#packages">Our Packages</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="home" class="slider">
+        <div class="slide active" style="background-image: url('banner1.jpg');">
+            <h1>Welcome to Your Trusted Travel Agent's</h1>
+        </div>
+        <div class="slide" style="background-image: url('banner2.jpg');">
+            <h1>Your happiness is our happiness</h1>
+        </div>
+        <div class="slide" style="background-image: url('banner3.jpg');">
+            <h1>Best Deals for Your Perfect Vacation</h1>
+        </div>
+    </div>
+
+    <section id="packages">
+        <h2>Our Packages</h2>
+        <div class="package">Package Bali</div>
+        <div class="package">Package Japan</div>
+        <div class="package">Package Singapore</div>
+        <div class="package">Package Bandung</div>
+        <div class="package">Package Surabaya</div>
+        <div class="package">Package Jakarta</div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
+        <form onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Your Trusted Travel Agent's. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
